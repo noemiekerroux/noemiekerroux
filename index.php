@@ -9,16 +9,24 @@
 </head>
 <body>
 	<div class="container">
-		<div class="fixed_content_info"><p>Ce site est actuellement en cours de développement. <i class="button to_click_close">OK</i></p></div>
+		<div class="fixed_content_info"><p>Ce site est actuellement en cours de développement. <i class="button to_click_close">OK</i></p>
+			<ul>
+				<li><a href=""><img src="front/images/social/twitter42.png"></a></li>
+				<li><a href=""><img src="front/images/social/github42.png"></a></li>
+				<li><a href=""><img src="front/images/social/linkedin42.png"></a></li>
+			</ul>
+		</div>
 		<div id="content">
 			<div id="intro" class="full">
 				<div class="content">
 					<div class="title">
 						<h1>Noémie Kerroux</h1>
-						<p>Développeuse Web</p>
+						<p>CV Intéractif</p>
 					</div>
-					<a href="#next_achor"><img class="arrow_down" src="front/images/menu_down_arrow.png"></a>
+					<a href="#a_propos" class="scroll_to"><img class="arrow_down" src="front/images/menu_down_arrow.png"></a>
 				</div>
+			</div>
+			<div id="a_propos">
 			</div>
 			<div id="second">
 				<ul id="competences">
@@ -31,10 +39,10 @@
 			<div class="liseret" style="background-image:url(front/images/javascript.jpg)"></div>
 			<div id="esgi">
 				<div class="content">
-					<img src="front/images/esgi_paris.jpg">
+					<a target="_blank" href="http://www.esgi.fr/ecole-formation-informatique-design-paris.html"><img src="front/images/esgi_paris.jpg"></a>
 					<div class="image_content">
 						<p>3e Année</p>
-						<p><a href="http://www.esgi.fr/bachelor-informatique/bachelor-web.html">Cycle Bachelor en Informatique<br/>Développement Web</a></p>
+						<p><a target="_blank" href="http://www.esgi.fr/bachelor-informatique/bachelor-web.html">Cycle Bachelor en Informatique<br/>Développement Web</a></p>
 
 					</div>
 				</div>
@@ -44,6 +52,10 @@
 					<a target="_blank" href="http://www.opsone.net"><img src="front/images/logo-black.png"></a>
 					<i class="icn line"></i>
 					<p><a target="_blank" href="http://www.opsone.net">Cultivez vos projets web</a></p>
+					<ul>
+						<li><a href="https://www.facebook.com/opsone.agence?_rdr=p" target="_blank"><img src="front/images/icn-profile-fb.png" alt="Facebook Opsone"></a></li>
+						<li><a href="https://twitter.com/opsone" target="_blank"><img src="front/images/icn-profile-tw.png" alt="Facebook Opsone"></a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
